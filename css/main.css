@@ -1,0 +1,363 @@
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-size: 1rem;
+}
+
+.horizontal-scroll {
+  margin-top: 10vh;
+  width: 80vh;
+  height: 100vw;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -moz-overflow-x:hidden;
+  background: white;
+  padding: 30px;
+  -webkit-transform-origin: right top;
+          transform-origin: right top;
+  -webkit-transform: rotate(-90deg) translate3d(0, -100vw, 0);
+          transform: rotate(-90deg) translate3d(0, -80vh, 0);
+}
+.horizontal-scroll > * {
+  overflow: auto;
+  -moz-overflow:auto;
+  -webkit-transform-origin: left top;
+          transform-origin: left top;
+  -webkit-transform: rotate(90deg) translate3d(0, calc(-100vw + 60px), 0);
+          transform: rotate(90deg) translate3d(0, calc(-80vh + 60px), 0);
+}
+
+
+.text{
+  position: absolute;
+  text-align: center;
+  z-index: 100;
+  padding: 0 60px;
+  top: 0vh;
+  background: rgba(255, 255, 255, 0.4);
+  font-size: 0.9rem;
+}
+
+
+.potrait1{
+  width: calc(47vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 60vh;
+}
+
+
+.landscape1 {
+  width: calc(106vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 25vh;
+}
+
+.landscape2{
+  width: calc(106vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 36vh;
+}
+
+.landscape3{
+  width: calc(106vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 48vh;
+}
+
+.landscape4{
+  width: calc(106vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 84vh;
+}
+
+.landscape5{
+  width: calc(106vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 120vh;
+}
+
+.landscape6{
+  width: calc(106vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 133vh;
+}
+
+.landscape7{
+  width: calc(106vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 169vh;
+}
+
+.landscape8{
+  width: calc(106vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 182vh;
+}
+
+.landscape9{
+  width: calc(106vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 218vh;
+}
+
+.landscape10 {
+  width: calc(106vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 254vh;
+}
+
+.landscape11 {
+  width: calc(106vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 267vh;
+}
+
+.landscape12 {
+  width: calc(106vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 303vh;
+}
+
+.landscape13 {
+  width: calc(106vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 293vh;
+}
+
+.landscape14 {
+  width: calc(106vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 329vh;
+}
+
+.potrait2{
+  width: calc(47vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 71vh;
+}
+
+.potrait3{
+  width: calc(47vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 156vh;
+}
+
+.potrait4{
+  width: calc(47vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 205vh;
+}
+
+.potrait5{
+  width: calc(47vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 290vh;
+}
+
+.potrait6{
+  width: calc(47vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 339vh;
+}
+
+.potrait7{
+  width: calc(47vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 316vh;
+}
+
+.potrait8{
+  width: calc(47vh - 60px);
+  height: calc(70vh - 60px);
+  position: relative;
+  top: 365vh;
+}
+
+.horizontal-scroll__block:not(:first-child) {
+  margin-top: 30px;
+}
+.horizontal-scroll__block .background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: no-repeat center center/cover;
+  opacity: 1;
+  background-blend-mode: luminosity;
+}
+
+/*navbar*/
+#sidebar {
+  background-color: #f1f1f1;
+  position: fixed;
+  overflow: visible;
+  z-index: 1000;
+  height: 70vh;
+  width: 30vh;
+}
+
+#sidebar a {
+  display: block;
+  color: black;
+  position: relative;
+  top: 5vh;
+  padding: 0.7rem 6vh;
+  text-decoration: none;
+}
+
+
+#menu a:hover{
+  color: rgba(30, 30, 30, 0.6);
+}
+
+#infopop {
+  display: none;
+  padding-left: 5vh;
+}
+
+#sworkspop {
+  display: none;
+  padding-left: 5vh;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    margin-top: 9vh;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+
+#logo {
+  font-size: 1.4rem;
+  padding-top: 3rem;
+  padding-left: 6vh;
+  display: inline-block;
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#icon {
+  display: none;
+}
+
+@media screen and (max-width: 730px) {
+  #sidebar {
+    width: 100%;
+    height: 9vh;
+    position: relative;
+    display: block;
+    top: 0;
+    right: 0;
+    padding: 0;
+  }
+  #menu {
+    display: none;
+  }
+  #icon {
+    float: right;
+    display: block;
+    padding-right: 15px;
+    padding-top: 2.5vh;
+  }
+  #logo {
+    padding-top: 2.5vh;
+    padding-left: 1.5rem;
+  }
+  .landscape1 {
+    top: 0vh;
+  }
+  .potrait1{
+    top: 40vh;
+  }
+  .landscape2 {
+  top: 20vh;
+  }
+
+  .potrait2 {
+    top: 60vh;
+  }
+
+  .landscape3 {
+    top: 42vh;
+  }
+
+}
+
+@media screen and (max-height: 450px) {
+
+}
+
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
