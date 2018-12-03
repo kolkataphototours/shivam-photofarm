@@ -1,0 +1,49 @@
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+
+body{
+    overflow: hidden;
+}
+
+#navbarph {
+    position: relative;
+}
+
+.landscape {
+    position: relative;
+    width: calc(106vh - 60px);
+    height: calc(70vh - 60px);
+}
+
+.potrait {
+  position: relative;
+  width: calc(47vh - 60px);
+  height: calc(70vh - 60px);
+}
+
+.header {
+    position: relative;
+    width: calc(50vh - 60px);
+    height: calc(70vh - 60px);
+    top: 30vh;
+    overflow: hidden;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+
+@media screen and (max-width: 730px) {
+    .header {
+        width: calc(60vh - 60px);
+        top: 10vh;
+    }
+}

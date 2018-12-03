@@ -1,0 +1,78 @@
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="../../">Overview</a>
+  <a href="javascript:void(0);" id="snavwork" onclick="opensnavworks()">Selected Works</a>
+  <div id="sworksnav">
+    <a href="../Minmalism">Minmalism</a>
+    <a href="#">Potrait</a>
+    <a href="#" class="activeBar">Ganga Boys</a>
+  </div>
+  <a href="javascript:void(0);" id="snavinfo" onclick="openNavInfo()">Info</a>
+  <div id="sworksinfo">
+    <a href="#">About</a>
+    <a href="#">Workshops</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+
+<div id="sidebar">
+  <div id="logo">Shivam Photofarm</div>
+  <div id="menu">
+  <a href="../../">Overview</a>
+  <a href="javascript:void(0);" id="sworks" onclick="openSworks()">Selected Works</a>
+  <div id="sworkspop">
+    <a href="#">Minmalism</a>
+    <a href="#">Potrait</a>
+    <a href="#" class="activeBar">Ganga Boys</a>
+  </div>
+  <a href="javascript:void(0);" id="info" onclick="openInfo()">Info</a>
+  <div id="infopop">
+    <a href="#">About</a>
+    <a href="#">Workshops</a>
+    <a href="#">Contact</a>
+  </div>
+  </div>
+  <div href="javascript:void(0);" id="icon" onclick="openNav()">&#9776;</div>
+</div>
+<script type="text/javascript">
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+  }
+
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+  }
+
+  function openInfo() {
+      if ( document.getElementById("infopop").style.display == "none" ||  document.getElementById("infopop").style.display == "") {
+        document.getElementById("infopop").style.display = "block"
+      } else {
+        document.getElementById("infopop").style.display = "none"
+      }
+  }
+
+  function openSworks() {
+      if (document.getElementById("sworkspop").style.display == "none" || document.getElementById("sworkspop").style.display == "") {
+          document.getElementById("sworkspop").style.display = "block"
+      } else {
+          document.getElementById("sworkspop").style.display = "none"
+      }
+  }
+
+  function opensnavworks() {
+      if (document.getElementById("sworksnav").style.display == "none" || document.getElementById("sworksnav").style.display == "") {
+          document.getElementById("sworksnav").style.display = "block"
+      } else {
+          document.getElementById("sworksnav").style.display = "none"
+      }
+  }
+
+  function openNavInfo() {
+    if (document.getElementById("sworksinfo").style.display == "none" || document.getElementById("sworksinfo").style.display == "") {
+          document.getElementById("sworksinfo").style.display = "block"
+      } else {
+          document.getElementById("sworksinfo").style.display = "none"
+      }
+  }
+</script>
