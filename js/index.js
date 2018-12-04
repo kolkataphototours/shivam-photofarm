@@ -45,16 +45,16 @@ function showText(i) {
 document.onkeydown = function(e) {
     switch (e.keyCode) {
         case 37:
-            horizontalScroll.scrollLeft -= 100;
+            //console.log("left")
             break;
         case 38:
-            scrollBy(-50, 0);
+            //console.log("up")
             break;
         case 39:
-            horizontalScroll.scrollTop += 100;
+            //console.log("down")
             break;
         case 40:
-            scrollBy(50, 0);
+            //console.log("right")
             break;
     }
 };

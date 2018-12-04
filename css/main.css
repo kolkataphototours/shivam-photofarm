@@ -57,11 +57,10 @@ body {
 .upButton {
   background: rgba(230, 230, 230, 0.4);
   z-index: 1001;
-  position: relative;
-  top: 96%;
+  position: absolute;
+  bottom: 0;
   padding-top: .3rem;
   left: 45%;
-  height: 4%;
   width: 4vh;
   text-align: center;
   box-shadow: none;
@@ -345,6 +344,7 @@ body {
     display: block;
     padding-right: 15px;
     padding-top: 2.5vh;
+    cursor: pointer;
   }
   #logo {
     padding-top: 2.5vh;
@@ -368,10 +368,7 @@ body {
     top: 42vh;
   }
   .upButton {
-    position: relative;
-    bottom: 0;
-    height: 4%;
-    padding-top: 0;
+
   }
   #sworksnav{
     display: none;
@@ -390,6 +387,17 @@ body {
   .sidebar a {
     text-align: center;
     float: none;
+  }
+}
+
+@media screen and (orientation:landscape) {
+  #sidebar {
+    height: 12vh;
+  }
+
+  .upButton {
+    font-size: 0.8rem;
+    padding-top: 0;
   }
 }
 
