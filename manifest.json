@@ -2,18 +2,13 @@
   "short_name": "Photfarm",
   "name": "Shivam Photfarm",
   "description": "Learn how to create and share something or other.",
-  /*"icons": [
+  "icons": [
     {
-      "src": "/images/icons-192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "/images/icons-512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "src": "/images/sp_logo.jpg",
+      "type": "image/jpg",
+      "sizes": "218x218"
     }
-  ],*/
+  ],
   "start_url": "/",
   "background_color": "#3367D6",
   "display": "standalone",

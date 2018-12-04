@@ -321,6 +321,7 @@ body {
   display: none;
 }
 
+
 @media screen and (max-width: 730px) {
   body {
     top:0;
@@ -378,6 +379,7 @@ body {
   }
 }
 
+
 @media screen and (max-height: 450px) {
 
 }
@@ -387,17 +389,6 @@ body {
   .sidebar a {
     text-align: center;
     float: none;
-  }
-}
-
-@media screen and (orientation:landscape) {
-  #sidebar {
-    height: 12vh;
-  }
-
-  .upButton {
-    font-size: 0.8rem;
-    padding-top: 0;
   }
 }
 
