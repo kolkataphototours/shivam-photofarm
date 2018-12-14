@@ -26,11 +26,8 @@ body {
   height: 100vw;
   overflow-y: auto;
   overflow-x: hidden;
-  -moz-overflow-x:hidden;
-  -webkit-overflow-scrolling: touch;
-  background: white;
+  background: whinote;
   padding: 30px;
-  white-space: nowrap;
   -webkit-transform-origin: right top;
           transform-origin: right top;
   -webkit-transform: rotate(-90deg) translate3d(0, -100vw, 0);
