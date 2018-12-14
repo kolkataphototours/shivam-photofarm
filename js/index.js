@@ -58,5 +58,3 @@ document.onkeydown = function(e) {
             break;
     }
 };
-
-document.body.requestFullscreen();

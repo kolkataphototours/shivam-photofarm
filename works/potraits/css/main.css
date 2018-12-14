@@ -1,0 +1,40 @@
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 1px;
+}
+
+body{
+  overflow: hidden;
+}
+
+#navbarph {
+  position: relative;
+}
+
+.landscape {
+  position: relative;
+  width: calc(47vh - 60px);
+  height: calc(70vh - 60px);
+  top: 10vh;
+}
+
+
+.header {
+  position: relative;
+  width: calc(50vh - 60px);
+  height: calc(70vh - 60px);
+  top: 30vh;
+}
+
+@media screen and (max-width: 730px) {
+  .header {
+      top: 0;
+      width: calc(50vh - 60px);
+      overflow-x: visible;
+  }
+}

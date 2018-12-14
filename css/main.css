@@ -27,8 +27,10 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
   -moz-overflow-x:hidden;
+  -webkit-overflow-scrolling: touch;
   background: white;
   padding: 30px;
+  white-space: nowrap;
   -webkit-transform-origin: right top;
           transform-origin: right top;
   -webkit-transform: rotate(-90deg) translate3d(0, -100vw, 0);
@@ -265,12 +267,18 @@ body {
 
 #infopop {
   display: none;
-  padding-left: 5vh;
 }
 
 #sworkspop {
   display: none;
-  padding-left: 5vh;
+}
+
+#infopop a{
+  padding-left: 10vh;
+}
+
+#sworkspop a{
+  padding-left: 10vh;
 }
 
 
@@ -321,6 +329,21 @@ body {
   display: none;
 }
 
+#social-media {
+  position: absolute;
+  display: inline-flex;
+  font-size: 1rem;
+  top: 60vh;
+  margin-left: 5vh;
+}
+
+#social-media a {
+  padding: 0.3rem 1rem;
+}
+
+#social-media a:hover {
+  color: blue;
+}
 
 @media screen and (max-width: 730px) {
   body {
@@ -351,6 +374,9 @@ body {
     padding-top: 2.5vh;
     padding-left: 1.5rem;
   }
+  .horizontal-scroll {
+    white-space: nowrap;
+  }
   .landscape1 {
     top: 0vh;
   }
@@ -375,6 +401,17 @@ body {
     display: none;
   }
   #sworksinfo {
+    display: none;
+  }
+  ::-webkit-scrollbar {
+      width: 0px;  /* remove scrollbar space */
+      background: transparent;  /* optional: just make scrollbar invisible */
+  }
+  /* optional: show position indicator in red */
+  ::-webkit-scrollbar-thumb {
+      background: #FF0000;
+  }
+  #social-media {
     display: none;
   }
 }
