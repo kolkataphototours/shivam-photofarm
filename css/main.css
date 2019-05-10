@@ -1,3 +1,5 @@
+
+
 ::-webkit-scrollbar {
   width: 1px;
   height: 1px;
@@ -240,7 +242,7 @@ body {
 
 /*navbar*/
 #sidebar {
-  background-color: #f1f1f1;
+  background-color: rgba(255, 255, 255, 0.95);
   position: fixed;
   overflow: visible;
   z-index: 1000;
@@ -256,7 +258,9 @@ body {
   padding: 0.7rem 6vh;
   text-decoration: none;
 }
-
+#menu {
+  
+}
 
 #menu a:hover{
   color: rgba(30, 30, 30, 0.6);

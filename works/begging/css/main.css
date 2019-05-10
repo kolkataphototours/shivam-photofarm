@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
 ::-webkit-scrollbar {
   width: 1px;
   height: 1px;
@@ -29,16 +31,21 @@ body{
 }
 
 .header {
+	font-family: 'Satisfy', cursive;
     position: relative;
     width: calc(50vh - 60px);
     height: calc(70vh - 60px);
     top: 30vh;
-    overflow: hidden;
+	overflow: hidden;
+	white-space: initial;
+}
+.header p {
+	word-wrap: break-word;
 }
 
 @media screen and (max-width: 730px) {
     .header {
-        width: calc(60vh - 60px);
-        top: 10vh;
+        max-width: calc(60vh - 60px);
+		top: 10vh;
     }
 }
