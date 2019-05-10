@@ -42,6 +42,7 @@ body{
 
 .header p {
   font-size: 1.2rem;
+  word-wrap: break-word;
 }
 
 @media screen and (max-width: 730px) {

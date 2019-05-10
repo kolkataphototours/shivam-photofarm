@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Courgette|Marck+Script');
 
 ::-webkit-scrollbar {
   width: 1px;
@@ -259,7 +259,7 @@ body {
   text-decoration: none;
 }
 #menu {
-  
+  font-family: 'Courgette', cursive;
 }
 
 #menu a:hover{
@@ -275,11 +275,13 @@ body {
 }
 
 #infopop a{
-  padding-left: 10vh;
+  padding-left: 8vh;
+  margin-top: -0.45rem;
 }
 
 #sworkspop a{
-  padding-left: 10vh;
+  padding-left: 8vh;
+  margin-top: -0.45rem;
 }
 
 
@@ -295,6 +297,7 @@ body {
     transition: 0.5s;
     padding-top: 60px;
     text-align:center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .sidenav a {
@@ -308,7 +311,8 @@ body {
 }
 
 #logo {
-  font-size: 1.4rem;
+  font-family: 'Marck Script', cursive;
+  font-size: 1.5rem;
   padding-top: 3rem;
   padding-left: 6vh;
   display: inline-block;
@@ -415,6 +419,7 @@ body {
   #social-media {
     display: none;
   }
+  
 }
 
 

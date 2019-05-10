@@ -29,11 +29,16 @@ body{
 }
 
 .header {
+    font-family: 'Satisfy', cursive;
     position: relative;
     width: calc(50vh - 60px);
     height: calc(70vh - 60px);
     top: 30vh;
     overflow: hidden;
+}
+
+.header p{
+  word-wrap: break-word;
 }
 
 @media screen and (max-width: 730px) {
