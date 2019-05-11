@@ -13,7 +13,7 @@ function closeNav() {
 }
 
 function openInfo() {
-    if (infopop.style.display == "none" || infopop.style.display == "") {
+    if (infopop.style.display == "none" || infopop.style.display == "" ) {
         infopop.style.display = "block"
     } else {
         infopop.style.display = "none"
@@ -54,7 +54,6 @@ document.onkeydown = function(e) {
             //console.log("down")
             break;
         case 40:
-            //console.log("right")
             break;
     }
 };

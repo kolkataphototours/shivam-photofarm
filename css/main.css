@@ -246,8 +246,9 @@ body {
   position: fixed;
   overflow: visible;
   z-index: 1000;
-  height: 70vh;
-  width: 30vh;
+  height: 75vh;
+  width: 32vh;
+  margin-top: -5vh;
 }
 
 #sidebar a {
@@ -268,20 +269,24 @@ body {
 
 #infopop {
   display: none;
+  transition: 0.5s;
 }
 
 #sworkspop {
   display: none;
+  transition: 0.5s;
 }
 
 #infopop a{
   padding-left: 8vh;
   margin-top: -0.45rem;
+  transition: 0.5s;
 }
 
 #sworkspop a{
   padding-left: 8vh;
   margin-top: -0.45rem;
+  transition: 0.5s;
 }
 
 
@@ -297,7 +302,7 @@ body {
     transition: 0.5s;
     padding-top: 60px;
     text-align:center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: cursive;
 }
 
 .sidenav a {
@@ -338,7 +343,7 @@ body {
   position: absolute;
   display: inline-flex;
   font-size: 1rem;
-  top: 60vh;
+  top: 67vh;
   margin-left: 5vh;
 }
 
@@ -357,6 +362,7 @@ body {
     right: 0;
   }
   #sidebar {
+    margin-top: 0vh;
     width: 100%;
     height: 9vh;
     position: relative;

@@ -30,6 +30,7 @@ body{
   width: calc(50vh - 60px);
   height: calc(70vh - 60px);
   top: 30vh;
+  white-space: initial;
 }
 
 @media screen and (max-width: 730px) {

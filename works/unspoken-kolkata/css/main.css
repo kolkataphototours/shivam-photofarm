@@ -34,11 +34,8 @@ body{
     width: calc(50vh - 60px);
     height: calc(70vh - 60px);
     top: 30vh;
+    white-space: initial;
     overflow: hidden;
-}
-
-.header p{
-  word-wrap: break-word;
 }
 
 @media screen and (max-width: 730px) {
