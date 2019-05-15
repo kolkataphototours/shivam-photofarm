@@ -10,6 +10,7 @@
   height: 1px;
 }
 
+html { overflow-x:hidden; }
 
 *,
 *::after,
@@ -359,7 +360,7 @@ body {
   color: blue;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
   body {
     top:0;
     left: 0;

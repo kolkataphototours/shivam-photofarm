@@ -16,6 +16,8 @@ body{
     position: relative;
 }
 
+html { overflow-x:hidden; }
+
 .landscape {
     position: relative;
     width: calc(106vh - 60px);
