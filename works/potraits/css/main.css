@@ -37,6 +37,5 @@ body{
   .header {
       top: 0;
       width: calc(50vh - 60px);
-      overflow-x: visible;
   }
 }

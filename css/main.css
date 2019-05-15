@@ -241,6 +241,10 @@ body {
 }
 
 /*navbar*/
+#navbarph {
+  position: relative;
+}
+
 #sidebar {
   background-color: rgba(255, 255, 255, 0.95);
   position: fixed;
@@ -355,7 +359,7 @@ body {
   color: blue;
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 400px) {
   body {
     top:0;
     left: 0;
