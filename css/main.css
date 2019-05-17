@@ -8,6 +8,8 @@
 
 body {
   overflow-y: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
   font-size: 1rem;
 }
 
@@ -16,8 +18,8 @@ body {
   width: 80vh;
   height: 100vw;
   overflow-y: auto;
-  overflow-x: hidden;
-  background: whinote;
+  overflow-x: scroll;
+  background: whitesmoke;
   padding: 30px;
   -webkit-transform-origin: right top;
           transform-origin: right top;
@@ -404,7 +406,7 @@ body {
   #sworksinfo {
     display: none;
   }
-  /* optional: show position indicator in red */
+
   #social-media {
     display: none;
   }
