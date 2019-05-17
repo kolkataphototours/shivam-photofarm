@@ -21,15 +21,15 @@ body {
   padding: 30px;
   -webkit-transform-origin: right top;
           transform-origin: right top;
-  -webkit-transform: rotate(-90deg) translate3d(0, -100vw, 0);
+  -webkit-transform: rotate(-90deg) translate3d(0, -80vh, 0);
           transform: rotate(-90deg) translate3d(0, -80vh, 0);
 }
 .horizontal-scroll > * {
-  overflow: hidden;
+  overflow: auto;
   -moz-overflow:auto;
   -webkit-transform-origin: left top;
           transform-origin: left top;
-  -webkit-transform: rotate(90deg) translate3d(0, calc(-100vw + 60px), 0);
+  -webkit-transform: rotate(90deg) translate3d(0, calc(-80vh + 60px), 0);
           transform: rotate(90deg) translate3d(0, calc(-80vh + 60px), 0);
 }
 
