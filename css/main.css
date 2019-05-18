@@ -221,19 +221,20 @@ body {
   margin-top: 30px;
 }
 .horizontal-scroll__block .background {
-  position: absolute;
+  position: fixed;
+  -webkit-backface-visibility: hidden;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background: no-repeat center center/cover;
   opacity: 1;
   background-blend-mode: luminosity;
 }
 
 /*navbar*/
 #navbarph {
-  position: relative;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
 }
 
 #sidebar {
@@ -356,6 +357,10 @@ body {
     left: 0;
     right: 0;
   }
+  #navbarph {
+    position: relative;
+  }
+
   #sidebar {
     margin-top: 0vh;
     width: 100%;
