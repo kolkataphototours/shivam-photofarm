@@ -36,7 +36,7 @@ body{
     background: url('../images/1.jpg') center center/cover;
 }
 #landscape2 {
-    background-image: url('../images/2.jpg') center center/cover;
+    background: url('../images/2.jpg') center center/cover;
 }
 #landscape3 {
     background: url('../images/3.jpg') center center/cover;

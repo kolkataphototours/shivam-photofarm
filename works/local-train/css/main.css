@@ -6,76 +6,73 @@ body{
 #navbarph {
     position: relative;
 }
-#1 {
+#i1 {
     background: url('../images/1.jpg') center center/cover;
 }
-#2 {
+#i2 {
     background: url("../images/1_2.jpg") center center/cover;
 }
-#3 {
+#i3 {
     background: url('../images/2.jpg') center center/cover;
 }
-#4 {
+#i4 {
     background: url('../images/3.jpg') center center/cover;
 }
-#4_2 {
+#i4_2 {
     background: url('../images/4.jpg') center center/cover;
 }
-#5 {
+#i5 {
     background: url('../images/5.jpg') center center/cover;
 }
-#5 {
-    background: url('../images/5.jpg') center center/cover;
-}
-#6 {
+#i6 {
     background: url('../images/6.jpg') center center/cover;
 }
-#7 {
+#i7 {
     background: url('../images/7.jpg') center center/cover;
 }
-#8 {
+#i8 {
     background: url('../images/8.jpg') center center/cover;
 }
-#9 {
+#i9 {
     background: url('../images/9.jpg') center center/cover;
 }
-#10 {
+#i10 {
     background: url('../images/10.jpg') center center/cover;
 }
-#11 {
+#i11 {
     background: url('../images/11.jpg') center center/cover;
 }
-#12 {
+#i12 {
     background: url('../images/12.jpg') center center/cover;
 }
-#13 {
+#i13 {
     background: url('../images/13.jpg') center center/cover;
 }
-#14 {
+#i14 {
     background: url('../images/14.jpg') center center/cover;
 }
-#15 {
+#i15 {
     background: url('../images/15.jpg') center center/cover;
 }
-#16 {
+#i16 {
     background: url('../images/16.jpg') center center/cover;
 }
-#17 {
+#i17 {
     background: url('../images/17.jpg') center center/cover;
 }
-#18 {
+#i18 {
     background: url('../images/18.jpg') center center/cover;
 }
-#19 {
+#i19 {
     background: url('../images/19.jpg') center center/cover;
 }
-#20 {
+#i20 {
     background: url('../images/20.jpg') center center/cover;
 }
-#21 {
+#i21 {
     background: url('../images/21.jpg') center center/cover;
 }
-#23 {
+#i23 {
     background: url('../images/23.jpg') center center/cover;
 }
 
