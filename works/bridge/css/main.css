@@ -6,6 +6,67 @@ body{
     position: relative;
 }
 
+#landscape1 {
+    background: url('../images/1.jpg');
+}
+#landscape2 {
+    background-image: url('../images/2.jpg');
+}
+#landscape3 {
+    background: url('../images/3.jpg');
+}
+#potrait1 {
+    background: url('../images/4.jpg');
+}
+#landscape4 {
+    background: url("../images/5.jpg");
+}
+#landscape5 {
+    background: url("../images/6.jpg");
+}
+#landscape6 {
+    background: url("../images/7.jpg");
+}
+#landscape7 {
+    background: url('../images/8.jpg');
+}
+#landscape8 {
+    background: url('../images/9.jpg');
+}
+#landscape9 {
+    background: url('../images/10.jpg');
+}
+#landscape10 {
+    background: url('../images/11.jpg');
+}
+#landscape11 {
+    background: url('../images/12.jpg');
+}
+#landscape12 {
+    background: url('../images/13.jpg');
+}
+#landscape13 {
+    background: url('../images/14.jpg');
+}
+#landscape14 {
+    background: url('../images/15.jpg');
+}
+#landscape15 {
+    background: url('../images/16.jpg');
+}
+#landscape16 {
+    background: url('../images/17.jpg');
+}
+#landscape17 {
+    background: url('../images/18.jpg');
+}
+#landscape18 {
+    background: url('../images/19.jpg');
+}
+.horizontal_scroll__block {
+    background: center center/cover;
+}
+
 .landscape {
     position: relative;
     width: calc(106vh - 60px);

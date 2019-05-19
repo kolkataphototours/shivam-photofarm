@@ -104,7 +104,9 @@ body{
 #potrait6 {
     background: url('../images/24.jpg');
 }
-
+.horizontal-scroll__block {
+    background: center center/cover;
+}
 
 @media screen and (max-width: 730px) {
     .header {
