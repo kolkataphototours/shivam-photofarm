@@ -6,6 +6,78 @@ body{
 #navbarph {
     position: relative;
 }
+#1 {
+    background: url('../images/1.jpg') center center/cover;
+}
+#2 {
+    background: url("../images/1_2.jpg") center center/cover;
+}
+#3 {
+    background: url('../images/2.jpg') center center/cover;
+}
+#4 {
+    background: url('../images/3.jpg') center center/cover;
+}
+#4_2 {
+    background: url('../images/4.jpg') center center/cover;
+}
+#5 {
+    background: url('../images/5.jpg') center center/cover;
+}
+#5 {
+    background: url('../images/5.jpg') center center/cover;
+}
+#6 {
+    background: url('../images/6.jpg') center center/cover;
+}
+#7 {
+    background: url('../images/7.jpg') center center/cover;
+}
+#8 {
+    background: url('../images/8.jpg') center center/cover;
+}
+#9 {
+    background: url('../images/9.jpg') center center/cover;
+}
+#10 {
+    background: url('../images/10.jpg') center center/cover;
+}
+#11 {
+    background: url('../images/11.jpg') center center/cover;
+}
+#12 {
+    background: url('../images/12.jpg') center center/cover;
+}
+#13 {
+    background: url('../images/13.jpg') center center/cover;
+}
+#14 {
+    background: url('../images/14.jpg') center center/cover;
+}
+#15 {
+    background: url('../images/15.jpg') center center/cover;
+}
+#16 {
+    background: url('../images/16.jpg') center center/cover;
+}
+#17 {
+    background: url('../images/17.jpg') center center/cover;
+}
+#18 {
+    background: url('../images/18.jpg') center center/cover;
+}
+#19 {
+    background: url('../images/19.jpg') center center/cover;
+}
+#20 {
+    background: url('../images/20.jpg') center center/cover;
+}
+#21 {
+    background: url('../images/21.jpg') center center/cover;
+}
+#23 {
+    background: url('../images/23.jpg') center center/cover;
+}
 
 .landscape {
     position: relative;

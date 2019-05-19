@@ -7,6 +7,81 @@ body{
 #navbarph {
     position: relative;
 }
+#landscape1 {
+    background: url('../images/untitled-1.jpg') center center/cover;
+}
+#landscape2 {
+    background: url('../images/untitled-2.jpg') center center/cover;
+}
+#landscape3 {
+    background: url('../images/untitled-3.jpg') center center/cover;
+}
+#landscape4 {
+    background: url('../images/untitled-4.jpg') center center/cover;
+}
+#landscape5 {
+    background: url('../images/untitled-5.jpg') center center/cover;
+}
+#landscape6 {
+    background: url('../images/untitled-6.jpg') center center/cover;
+}
+#landscape7 {
+    background: url('../images/untitled-7.jpg') center center/cover;
+}
+#landscape8 {
+    background: url('../images/untitled-8.jpg') center center/cover;
+}
+#landscape9 {
+    background: url('../images/untitled-9.jpg') center center/cover;
+}
+#landscape10 {
+    background: url('../images/untitled-10.jpg') center center/cover;
+}
+#landscape11 {
+    background: url('../images/untitled-11.jpg') center center/cover;
+}
+#landscape12 {
+    background: url('../images/untitled-12.jpg') center center/cover;
+}
+#landscape13 {
+    background: url('../images/untitled-13.jpg') center center/cover;
+}
+#landscape14 {
+    background: url('../images/untitled-14.jpg') center center/cover;
+}
+#landscape15 {
+    background: url('../images/untitled-15.jpg') center center/cover;
+}
+#landscape16 {
+    background: url('../images/untitled-16.jpg') center center/cover;
+}
+#landscape17 {
+    background: url('../images/untitled-17.jpg') center center/cover;
+}
+#landscape18 {
+    background: url('../images/untitled-18.jpg') center center/cover;
+}
+#landscape19 {
+    background: url('../images/untitled-19.jpg') center center/cover;
+}
+#landscape20 {
+    background: url('../images/untitled-20.jpg') center center/cover;
+}
+#landscape21 {
+    background: url('../images/untitled-21.jpg') center center/cover;
+}
+#landscape22 {
+    background: url('../images/untitled-22.jpg') center center/cover;
+}
+#landscape23 {
+    background: url('../images/untitled-23.jpg') center center/cover;
+}
+#landscape24 {
+    background: url('../images/untitled-24.jpg') center center/cover;
+}
+#landscape25 {
+    background: url('../images/untitled-25.jpg') center center/cover;
+}
 
 .landscape {
     position: relative;

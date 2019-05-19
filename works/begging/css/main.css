@@ -33,76 +33,76 @@ body{
 }
 
 #landscape1 {
-    background: url('../images/1.jpg');
+    background: url('../images/1.jpg') center center/cover;
 }
 #landscape2 {
-    background-image: url('../images/2.jpg');
+    background-image: url('../images/2.jpg') center center/cover;
 }
 #landscape3 {
-    background: url('../images/3.jpg');
+    background: url('../images/3.jpg') center center/cover;
 }
 #landscape4 {
-    background: url('../images/4.jpg');
+    background: url('../images/4.jpg') center center/cover;
 }
 #landscape5 {
-    background: url("../images/5.jpg");
+    background: url("../images/5.jpg") center center/cover;
 }
 #landscape6 {
-    background: url("../images/6.jpg");
+    background: url("../images/6.jpg") center center/cover;
 }
 #landscape7 {
-    background: url("../images/7.jpg");
+    background: url("../images/7.jpg") center center/cover;
 }
 #landscape8 {
-    background: url('../images/8.jpg');
+    background: url('../images/8.jpg') center center/cover;
 }
 #landscape9 {
-    background: url('../images/9.jpg');
+    background: url('../images/9.jpg') center center/cover;
 }
 #landscape10 {
-    background: url('../images/11.jpg');
+    background: url('../images/11.jpg') center center/cover;
 }
 #landscape11 {
-    background: url('../images/12.jpg');
+    background: url('../images/12.jpg') center center/cover;
 }
 #potrait1 {
-    background: url('../images/10.jpg');
+    background: url('../images/10.jpg') center center/cover;
 }
 #landscape12 {
-    background: url('../images/13.jpg');
+    background: url('../images/13.jpg') center center/cover;
 }
 #landscape13 {
-    background: url('../images/14.jpg');
+    background: url('../images/14.jpg') center center/cover;
 }
 #landscape14 {
-    background: url('../images/15.jpg');
+    background: url('../images/15.jpg') center center/cover;
 }
 #landscape15 {
-    background: url('../images/16.jpg');
+    background: url('../images/16.jpg') center center/cover;
 }
 #landscape16 {
-    background: url('../images/17.jpg');
+    background: url('../images/17.jpg') center center/cover;
 }
 #landscape17 {
-    background: url('../images/22.jpg');
+    background: url('../images/22.jpg')center center/cover;
 }
 #landscape18 {
-    background: url('../images/23.jpg');
+    background: url('../images/23.jpg')center center/cover;
 }
 #potrait2 {
-    background: url('../images/18.jpg');
+    background: url('../images/18.jpg')center center/cover;
 }
 #potrait3 {
-    background: url('../images/19.jpg');
+    background: url('../images/19.jpg') center center/cover;
 }
 #potrait4 {
-    background: url('../images/20.jpg');
+    background: url('../images/20.jpg') center center/cover;
 }
 #potrait5 {
-    background: url('../images/21.jpg');
+    background: url('../images/21.jpg')  center center/cover;
 }
 #potrait6 {
-    background: url('../images/24.jpg');
+    background: url('../images/24.jpg')  center center/cover;
 }
 .horizontal-scroll__block {
     background: center center/cover;
