@@ -32,6 +32,80 @@ body{
 	word-wrap: break-word;
 }
 
+#landscape1 {
+    background: url('../images/1.jpg');
+}
+#landscape2 {
+    background-image: url('../images/2.jpg');
+}
+#landscape3 {
+    background: url('../images/3.jpg');
+}
+#landscape4 {
+    background: url('../images/4.jpg');
+}
+#landscape5 {
+    background: url("../images/5.jpg");
+}
+#landscape6 {
+    background: url("../images/6.jpg");
+}
+#landscape7 {
+    background: url("../images/7.jpg");
+}
+#landscape8 {
+    background: url('../images/8.jpg');
+}
+#landscape9 {
+    background: url('../images/9.jpg');
+}
+#landscape10 {
+    background: url('../images/11.jpg');
+}
+#landscape11 {
+    background: url('../images/12.jpg');
+}
+#potrait1 {
+    background: url('../images/10.jpg');
+}
+#landscape12 {
+    background: url('../images/13.jpg');
+}
+#landscape13 {
+    background: url('../images/14.jpg');
+}
+#landscape14 {
+    background: url('../images/15.jpg');
+}
+#landscape15 {
+    background: url('../images/16.jpg');
+}
+#landscape16 {
+    background: url('../images/17.jpg');
+}
+#landscape17 {
+    background: url('../images/22.jpg');
+}
+#landscape18 {
+    background: url('../images/23.jpg');
+}
+#potrait2 {
+    background: url('../images/18.jpg');
+}
+#potrait3 {
+    background: url('../images/19.jpg');
+}
+#potrait4 {
+    background: url('../images/20.jpg');
+}
+#potrait5 {
+    background: url('../images/21.jpg');
+}
+#potrait6 {
+    background: url('../images/24.jpg');
+}
+
+
 @media screen and (max-width: 730px) {
     .header {
         max-width: calc(60vh - 60px);
