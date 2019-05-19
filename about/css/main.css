@@ -43,4 +43,10 @@ img {
        top: 12vh;
    }
 
+   .desc {
+       left: 1vh;
+       padding-left: 1rem;
+       padding-right: 1rem;
+       overflow: scroll;
+   }
 }
