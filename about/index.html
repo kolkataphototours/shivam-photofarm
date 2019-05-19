@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0,  minimum-scale=1"/>
+  <link rel='shortcut icon' type='image/ico' href='../favicon.ico' />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <title>Shivam Photofarm</title>
+
+  <link rel="manifest" href="../manifest.json">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script language="JavaScript" type="text/javascript" src="../js/jquery.js"></script>
+  <script src="../js/index.js"></script>
+  <style>
+    #sidebar {
+      margin-top: 10vh;
+      position: absolute;
+    }
+
+    @media screen and (max-width: 730px) {
+      #sidebar {
+        margin-top: 0vh;
+      }
+      #navbarph {
+        z-index: 100;
+      }
+    }
+  </style>
+</head>
+<body>
+    <div id="navbarph"></div> 
+    
+    <img class="profile" src="images/shivam_square.jpg">
+    <div class="divider">
+    </div>
+    <div class="color"> </div>
+
+    <div class="desc">
+      <p class="text-desc">
+          My name is Shivam Pandey and I’m a photographer, presently residing in Kolkata, one of the most beautiful cities in India 
+          which itself being one of the most colourful countries in the world. A young blood with some serious interest in exploration,  
+          navigating through place to place, embracing the native culture and cherishing the originality of some special lives.  
+          My whole life has been, doing what my heart told me to do, choosing what suited best for my amusement. I was raised in a  
+          orthodox society where following your heart was not considered a good option for a healthy future, But I always allowed my  
+          heart and intuitions to guide me and choosing a life out of photography was one of it. I never had any professional training  
+          in photography but was pretty fortunate to work under some real professionals. My goal with photography is to show the beauty,  
+          grace, strength and enthusiasm of people. I focus on non-models and place regular people in exaggerated situations that highlight  
+           an aspect of who they are. I look for a sense of defiance and fortitude in my work. I provide assistance and tours of this lovely  
+           city to people intrested in visiting Kolkata and where to hear it best rather than from one of its biggest lover. So hoping to see you soon.
+      </p>
+    </div>
+    
+    <script type="text/javascript">
+        $(function(){
+          $('#navbarph').load("nav.html");
+        });
+      </script>
+</body>
+</html>

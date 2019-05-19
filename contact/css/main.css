@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Marck+Script');
+body {
+    overflow: hidden;
+    color: #333;
+    background-color: #fff;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#navbarph {
+    position: fixed;
+}
+
+#sidebar {
+    background-color: rgba(255, 255, 255, 0.95);
+    position: fixed;
+    overflow: visible;
+    z-index: 1000;
+    height: 75vh;
+    width: 32vh;
+    margin-top: 7vh;
+}
+  
+#sidebar a {
+    display: block;
+    color: black;
+    position: relative;
+    top: 5vh;
+    padding: 0.7rem 6vh;
+    text-decoration: none;
+}
+#menu {
+    font-family: 'Courgette', cursive;
+}
+
+#menu a:hover{
+    color: rgba(30, 30, 30, 0.6);
+}
+
+#infopop {
+    display: none;
+    transition: 0.5s;
+}
+
+#sworkspop {
+display: none;
+transition: 0.5s;
+}
+
+#infopop a{
+padding-left: 8vh;
+margin-top: -0.45rem;
+transition: 0.5s;
+}
+
+#sworkspop a{
+padding-left: 8vh;
+margin-top: -0.45rem;
+transition: 0.5s;
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    margin-top: 9vh;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+    font-family: cursive;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+}
+
+#logo {
+    font-family: 'Marck Script', cursive;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    padding-left: 6vh;
+    display: inline-block;
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#icon {
+    display: none;
+}
+
+#social-media {
+    position: absolute;
+    display: inline-flex;
+    font-size: 1rem;
+    top: 67vh;
+    margin-left: 5vh;
+}
+
+#social-media a {
+    padding: 0.3rem 1rem;
+}
+
+#social-media a:hover {
+color: blue;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+  
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  
+.column{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+  
+  /*-- contact-section --*/
+.contact{
+    background: #292D46;
+    padding:6em 0em;
+    overflow: hidden;
+    position: fixed;
+    left: 33vh;
+    top: 20vh;
+    z-index: -1;
+    right: 0vh;
+}
+.contact h3{
+    font-size: 2.5em;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin: 0 auto;
+    border-bottom: 2px solid white;
+    width: 220px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.contact p{
+    font-size:1.2em;
+    font-weight:400;
+    color: #ff6f5c;
+    margin:1em 0em 4em;
+    text-align:center;
+}
+.contact input[type="text"]{
+    width: 100%;
+    padding: 1.5% 0;
+    margin-bottom: 7%;
+    background: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    outline: none;
+    font-weight: 400;
+    text-indent: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+  }
+    textarea {
+      resize:none;
+      width: 100%;
+      padding: 2% 0;
+      margin-bottom: 5%;
+      background:none;
+      color: #FFFFFF;
+      font-size:18px;
+      outline: none;
+      font-weight:400;
+      text-indent: 10px;
+      border: 1px solid #FFFFFF;
+      min-height: 205px;
+      border-radius: 3px;
+  }
+  input[type="submit"] {
+      background: #ff6f5c;
+      padding: 0.5em 3em;
+      color:#fff;
+      font-size: 19px;
+      font-weight: 400;
+      display: block;
+      outline: none;
+      border: none;
+      border-radius:5px;
+      text-transform:uppercase;
+      font-family: 'Open Sans';
+      font-weight: bold;
+      cursor: pointer;
+      float: right;
+  }	
+  input[type="submit"]:hover{
+    background: #FFFFFF;
+    color: #000;
+  }
+  /*-- contact --*/
+  
+  .wrap {
+    width: 80%;
+    margin: 0px auto;
+  }
+  
+  
+  
+@media screen and (max-width: 730px) {
+    #sidebar {
+        margin-top: 0vh;
+        width: 95vw;
+        height: 9vh;
+        position: relative;
+        display: block;
+        top: 0;
+        right: 0;
+        padding: 0;
+    }
+    #menu {
+        display: none;
+    }
+    #icon {
+        float: right;
+        display: block;
+        padding-right: 15px;
+        padding-top: 2.5vh;
+        cursor: pointer;
+    }
+    #logo {
+        padding-top: 2.5vh;
+        padding-left: 1.5rem;
+    }
+    #sworksnav{
+        display: none;
+    }
+    #sworksinfo {
+        display: none;
+    }
+
+    #social-media {
+        display: none;
+    }
+    .contact {
+        top: 11vh;
+        left: 0vh;
+        height: 100%;
+    }
+      
+}
+
+@media (min-width: 992px){
+    .container {
+    width: 970px;
+    }
+    .column {
+    width: 50%;
+    float: left;
+    }
+}
+
+
+@media (min-width: 1200px){
+    .container {
+        width: 1170px;
+    }
+}

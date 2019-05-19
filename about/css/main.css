@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+
+img {
+    height: 30vh;
+    width: 30vh;
+    border-radius: 100%;
+    position: absolute;
+    top: 10vh;
+    left: 50vw;
+    z-index: 10;
+}
+
+.divider {
+    position: relative;
+    top: 25vh;
+    border-bottom: solid 2px black;
+}
+.color {
+    background-color: rgba(230, 230, 230, 0.3);
+    width: 100vw;
+    height: 18vh;
+    position: fixed;
+    top: 24vh;
+}
+
+.desc {
+    position: absolute;
+    top: 42vh;
+    left: 25vh;
+    font-size: 1.4rem;
+    font-family: 'Satisfy', cursive;
+    padding-left: 30vh;
+    padding-right: 20vh;
+    background-color: rgba(230, 230, 230, 0.3);
+}
+.text-desc {
+    white-space: normal;
+}
+
+@media screen and (max-width: 730px) {
+   img {
+       left: 20vw;
+       top: 12vh;
+   }
+
+}

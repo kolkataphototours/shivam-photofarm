@@ -4,18 +4,45 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0,  minimum-scale=1"/>
   <link rel='shortcut icon' type='image/ico' href='../favicon.ico' />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
   <title>Shivam Photofarm</title>
 
-  <link rel="stylesheet" href="../css/main.css">
   <link rel="manifest" href="../manifest.json">
+  <link rel="stylesheet" href="css/main.css">
   <script language="JavaScript" type="text/javascript" src="../js/jquery.js"></script>
+  <script src="../js/index.js"></script>
 </head>
 <body>
-  <div id="navbarph"></div>
+  <div id="navbarph"></div> 
   
+  <form class="contact" id="contact">
+    <div class="container">
+      <div class="column">
+            <div class="text-field-name-1">
+              <input type="text" class="text" value=" Enter your name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' Enter your name';}">
+            </div>
+            <div class="text-field-email-1">
+                <input type="text" class="text" value="Enter your email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter your email';}">
+                </div>
+            <div class="text-field-subject-1">
+                  <input type="text" class="text" value=" Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' Subject';}">
+            </div>
+      </div>
+      <div class="column">
+          <div class="text-field-area-">
+              <textarea value="Message:" onfocus="if(this.value == 'Message') this.value='';" onblur="if(this.value == '') this.value='Message';">Message</textarea>
+          </div>
+          <div class="button">
+              <input type="submit" value="Send Message">
+          </div>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
+  </form>
+
 </body>
 
 <script type="text/javascript">
