@@ -58,6 +58,10 @@ body {
   cursor: pointer;
 }
 
+::-webkit-scrollbar { 
+  display: none; 
+}
+
 
 .potrait1{
   width: calc(47vh - 60px);

@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
-
+body {
+    overflow-y: scroll;
+}
 img {
     height: 30vh;
     width: 30vh;
     border-radius: 100%;
     position: absolute;
-    top: 10vh;
+    top: 8vh;
     left: 50vw;
     z-index: 10;
 }
 
 .divider {
     position: relative;
-    top: 25vh;
+    top: 23vh;
     border-bottom: solid 2px black;
 }
 .color {
@@ -20,12 +22,12 @@ img {
     width: 100vw;
     height: 18vh;
     position: fixed;
-    top: 24vh;
+    top: 22vh;
 }
 
 .desc {
     position: absolute;
-    top: 42vh;
+    top: 40vh;
     left: 25vh;
     font-size: 1.4rem;
     font-family: 'Satisfy', cursive;
@@ -35,6 +37,10 @@ img {
 }
 .text-desc {
     white-space: normal;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
 }
 
 @media screen and (max-width: 730px) {
@@ -47,6 +53,5 @@ img {
        left: 1vh;
        padding-left: 1rem;
        padding-right: 1rem;
-       overflow: scroll;
    }
 }

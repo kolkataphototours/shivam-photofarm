@@ -155,7 +155,7 @@ color: blue;
   
   /*-- contact-section --*/
 .contact{
-    background: #292D46;
+    background: #111;/* #292D46;*/
     padding:6em 0em;
     overflow: hidden;
     position: fixed;
@@ -237,7 +237,10 @@ color: blue;
     width: 80%;
     margin: 0px auto;
   }
-  
+
+  ::-webkit-scrollbar { 
+        display: none; 
+    }
   
   
 @media screen and (max-width: 730px) {
