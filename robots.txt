@@ -1,0 +1,11 @@
+User-agent: * 
+Disallow: 
+Sitemap: https://www.shivamphotofarm.com/sitemap/sitemap.xml
+Sitemap: https://www.shivamphotofarm.com/sitemap/minimalism.xml
+Sitemap: https://www.shivamphotofarm.com/sitemap/ganga-boys.xml
+Sitemap: https://www.shivamphotofarm.com/sitemap/begging.xml
+Sitemap: https://www.shivamphotofarm.com/sitemap/bridge.xml
+Sitemap: https://www.shivamphotofarm.com/sitemap/kolkata.xml
+Sitemap: https://www.shivamphotofarm.com/sitemap/potraits.xml
+Sitemap: https://www.shivamphotofarm.com/sitemap/train.xml
+Sitemap: https://www.shivamphotofarm.com/sitemap/about.xml
